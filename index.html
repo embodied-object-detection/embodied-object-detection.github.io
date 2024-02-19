@@ -256,8 +256,8 @@
     <div class="content">
           <h2 class="title is-3">Embodied Object Detection</h2>
           <p>
-            Using <i>nerfies</i> you can create fun visual effects. This Dolly zoom effect
-            would be impossible without nerfies since it would require going through a wall.
+            Robots must detect objects from complex multi-modal data streams involving depth, localisation and temporal correlation, a task termed embodied object detection. 
+            However, single-image object detectors trained on internet data are not optimally tailored for these conditions.
           </p>
     </div>
     <div class="columns is-centered">
@@ -297,14 +297,16 @@
       </div>
     </div>
     <!--/ Localisation -->
+</section>
 
 <section class="section">
   <div class="container is-max-desktop">
     <div class="content">
       <h2 class="title is-3">Method</h2>
       <p>
-        Using <i>nerfies</i> you can create fun visual effects. This Dolly zoom effect
-        would be impossible without nerfies since it would require going through a wall.
+        We investigate how an image object detector pre-trained using language-image data can be extended to perform embodied object detection. 
+        We propose a novel implicit object memory that uses projective geometry to aggregate the features of detected objects across long temporal horizons. 
+        The spatial and temporal information accumulated in memory is then used to enhance the image features of the base detector.
       </p>
     </div>
     <div class="content">
@@ -314,14 +316,16 @@
       </video>
     </div>
   </div>
+</section>
 
 <section class="section">
   <div class="container is-max-desktop">
     <div class="content">
       <h2 class="title is-3">Results</h2>
       <p>
-        Using <i>nerfies</i> you can create fun visual effects. This Dolly zoom effect
-        would be impossible without nerfies since it would require going through a wall.
+        The addition of our implicit object memory generated improved performance relative to using image features only, avoiding many false positive detections. 
+        When tested on embodied data streams sampled from diverse indoor scenes, our approach improves the base object detector by 3.09 mAP, 
+        outperforming alternative external memories designed for VOD and Semantic Mapping. 
       </p>
     </div>
     <div class="content">
@@ -332,8 +336,8 @@
     </div>
     <div class="content">
       <p>
-        Using <i>nerfies</i> you can create fun visual effects. This Dolly zoom effect
-        would be impossible without nerfies since it would require going through a wall.
+        Our method also shows a significant improvement of 16.90 mAP relative to baselines that perform embodied object detection without first training on language-image data, 
+        and is robust to sensor noise and domain shift experienced in real-world deployment.
       </p>
     </div>
     <div class="content">
